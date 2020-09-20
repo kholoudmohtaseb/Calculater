@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 
+    <title>Kholoud & Noor project "Calculator"</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="data_generator.js"></script>
+    <!-- <h1>our calculater</h1> -->
+  </head>
+
+  <body>
+<div class = "calculator" > 
+<form name="calculator" >
+  <!-- Box of operator -->
+     <div><input class="textview" type="text" name="display" id="display" disabled></div>
+
+<table>
+    <!-- //buttons for numbers -->
+<tr>
+   <td><input class= "button" type="button" value="0" onclick="insert(0)" ></td>
+   <td><input class= "button" type="button" value="1" onclick="insert(1)" ></td>
+   <td><input class= "button" type="button" value="2" onclick="insert(2)"></td>
+   <td><input class= "button" type="button" value="3" onclick="insert(3)"></td>
+</tr>
+<tr>
+    <td><input class= "button" type="button" value="4" onclick="insert(4)"></td>
+    <td><input class= "button" type="button" value="5"onclick="insert(5)"></td>
+    <td><input class= "button" type="button" value="6"onclick="insert(6)"></td>
+    <td><input class= "button" type="button" value="7"onclick="insert(7)"></td>
+</tr>      
+<tr>
+    <td><input class= "button" type="button" value="8" onclick="insert(8)"></td>
+    <td><input class= "button" type="button" value="9" onclick="insert(9)"></td>
+    <td><input class= "button" type="button" value="+" onclick="insert(value)"></td>
+    <td><input class= "button" type="button" value="-" onclick="insert(value)"></td>
+</tr>
+ 
+ <!-- //"buttons for operations"  --> 
+<tr>
+   <td><input  class= "button" type="button" value="." onclick="insert(value)"></td>
+   <td><input  class= "button" type="button" value="*" onclick="insert(value)"></td>
+   <td><input class= "button" type="button" value="/" onclick="insert(value)"></td>
+</tr>
+<tr>
+  <td><input class= "button"type="button" value="cs" onclick="remove()"></td>
+  <td><input class= "button"type="button" value="=" onclick="equal()"></td>
+</tr>  
+</table>
+</div>
+    <script src="script.js"></script>
+    
+</form>
+   </body>
+
+</html>

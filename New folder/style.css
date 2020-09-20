@@ -1,0 +1,32 @@
+.calculator {
+  position: fixed;
+  display:flex;
+  border-style: solid;
+  border-radius: 25px;
+  border: 5px solid #73AD21;
+  width: 150px;
+  height: 250px;
+  padding: 12px 8px 12px 40px;
+	margin: 25px 50px 75px 100px;
+}
+
+.textview { border-radius: 10%;
+            box-sizing: border-box;
+            /* width: 50%; */
+            border: 5px solid red;
+            margin-left: 8%;
+       
+}
+/* //button styling */
+.button {
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  margin-left:150%; 
+  margin-right:auto;
+  padding: 12px;
+
+    }
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
